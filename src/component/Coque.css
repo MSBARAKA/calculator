@@ -1,0 +1,99 @@
+/* coquecalculette */
+.main-container{
+    padding: 50px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./waneella-pixel-art.gif);
+    width: 100%;
+    margin: auto;
+    border: 1px solid black;
+    font-size: 2rem;
+    font-family: 'Kenia', cursive;
+    color: #ffffff;
+  }
+  
+ 
+  
+  /* affichage saisie */
+
+.affichage-saisie{
+ padding: 50px;
+  height: 2rem;
+  width: 100%;
+  margin: auto;
+  background-color: #4357692d;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+ 
+}
+
+/* partie boutons*/
+.partie-boutons {
+ 
+  width: 100%;
+  height: calc(100% - 110px);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-gap: 10px;
+  background-color: blue;
+ 
+}
+/* boutons calculette */
+  
+.btnn{
+   
+  width: 3rem;
+  background-color: green;
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+ 
+}
+
+button:hover {
+  background-color: #443584;
+}
+
+.equals {
+  grid-column: 3 / 5;
+  background-color: rgb(243, 61, 29);
+}
+
+.equals:hover {
+  background-color: rgb(228, 39, 15);
+}
+
+.result {
+  height: 60px;
+  background-color: #443584;
+  width: 100%;
+}
+
+.result p {
+  font-size: 40px;
+  margin: 5px;
+
+}
+
+.calculator-body {
+  max-width: 400px;
+  margin: auto;
+}
+
+.button {
+  display: block;
+  background-color: #bbb;
+}
+
+button {
+  width: 25%;
+  height: 60px;
+  font-size: 2rem;
+  font-family: 'Kenia', cursive;
+  
+}
